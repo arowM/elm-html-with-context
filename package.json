@@ -1,0 +1,14 @@
+{
+  "scripts": {
+    "analyse": "elm-analyse",
+    "format": "elm-format src",
+    "test": "elm-verify-examples"
+  },
+  "dependencies": {
+    "elm": "^0.19.0-bugfix2",
+    "elm-analyse": "^0.15.0",
+    "elm-format": "^0.8.0",
+    "elm-test": "^0.19.0-beta4",
+    "elm-verify-examples": "^3.0.0"
+  }
+}
