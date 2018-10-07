@@ -3,7 +3,7 @@
     "name": "arowM/elm-html-with-context",
     "summary": "Cleaner, hack-free way to pass contexts to Elm view functions",
     "license": "MIT",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "exposed-modules": [
         "WithContext",
         "WithContext.Lazy"
