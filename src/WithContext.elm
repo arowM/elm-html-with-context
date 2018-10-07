@@ -19,7 +19,6 @@ module WithContext exposing
 
 @docs fromHtml
 @docs toHtml
-@docs withHtml
 
 
 # Core functions
@@ -79,7 +78,7 @@ text f =
 
 
 {-| This function is supposed to be used with functions in `WithContext.Lazy`.
-Please see [actual use case](#todo) for detail.
+Please see [actual use case](https://github.com/arowM/elm-css-modules-helper/tree/master/examples/real-world) for detail.
 -}
 lift : (context -> subContext) -> WithContext subContext msg -> WithContext context msg
 lift f wc =
