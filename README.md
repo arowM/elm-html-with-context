@@ -2,6 +2,8 @@
 
 Cleaner, hack-free way to pass contexts to Elm view functions.
 
+[![sakura-chan-under-the-bed](https://user-images.githubusercontent.com/1481749/46577798-bc836e00-ca29-11e8-9ea5-97029d9e6c47.jpg)](https://twitter.com/hashtag/%E3%81%95%E3%81%8F%E3%82%89%E3%81%A1%E3%82%83%E3%82%93%E6%97%A5%E8%A8%98?src=hash)
+
 ## What's this?
 
 This is an Elm library to pass contexts to all Elm view functions without hacks.
