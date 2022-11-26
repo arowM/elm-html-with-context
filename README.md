@@ -1,5 +1,17 @@
 # elm-html-with-context
 
+---
+
+⚠️DEPRECATED⚠️
+
+This library will not be maintained anymore, as I do not use it myself.
+I realized that a straightforward bucket relay would be more beneficial than incorporating such an unnecessarily complicated system.
+Humans tend to use complex methods to solve simple problems, but I am a goat, so I prefer simple methods.
+
+If you really need this kind of structure, you can see [miniBill/elm-html-with-context](https://package.elm-lang.org/packages/miniBill/elm-html-with-context/latest/). It seems to provide more careful documentation and well refined modules than this library.
+
+---
+
 Cleaner, hack-free way to pass contexts to Elm view functions.
 
 [![sakura-chan-under-the-bed](https://user-images.githubusercontent.com/1481749/46577798-bc836e00-ca29-11e8-9ea5-97029d9e6c47.jpg)](https://twitter.com/hashtag/%E3%81%95%E3%81%8F%E3%82%89%E3%81%A1%E3%82%83%E3%82%93%E6%97%A5%E8%A8%98?src=hash)

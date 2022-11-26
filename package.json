@@ -1,14 +1,14 @@
 {
   "scripts": {
-    "analyse": "elm-analyse",
     "format": "elm-format src",
-    "test": "elm-verify-examples"
+    "start": "elm-doc-preview",
+    "test": "elm-format --validate src && elm make --docs=/tmp/docs.json && elm-verify-examples --fail-on-warn -r"
   },
   "dependencies": {
-    "elm": "^0.19.0-bugfix2",
-    "elm-analyse": "^0.15.0",
-    "elm-format": "^0.8.0",
-    "elm-test": "^0.19.0-beta4",
-    "elm-verify-examples": "^3.0.0"
+    "elm": "^0.19.1-5",
+    "elm-doc-preview": "^5.0.5",
+    "elm-format": "^0.8.5",
+    "elm-test": "^0.19.1-revision9",
+    "elm-verify-examples": "^5.2.0"
   }
 }
